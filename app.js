@@ -30,6 +30,5 @@ bot.onText(/\/sunny (.+)/, (msg, match) => {
     bot.onText(/\/start/, (msg, match) => {
   bot.sendMessage(msg.chat.id, 'Chal bhaag bosdike)
 });
-});
 
 
