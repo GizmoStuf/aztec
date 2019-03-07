@@ -23,7 +23,7 @@ bot.onText(/\/sunny (.+)/, (msg, match) => {
   // of the message
 });
 bot.onText(/\/start/, (msg, match) => {
-  bot.sendMessage(msg.chat.id, 'Hi. I am a simple bot. I am maintained by Sunny)
+  bot.sendMessage(msg.chat.id, 'Chal Bhaag Bosdike')
 });
 
 
