@@ -24,11 +24,6 @@ bot.onText(/\/sunny (.+)/, (msg, match) => {
 
   const chatId = msg.chat.id;
   const resp = match[1]; // the captured "whatever"
-
-  // send back the matched "whatever" to the chat
-  bot.sendMessage(-1001314213841, resp);
-    bot.onText(/\/start/, (msg, match) => {
-  bot.sendMessage(msg.chat.id, 'Chal bhaag bosdike')
 });
 
 
