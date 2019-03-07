@@ -22,7 +22,7 @@ bot.onText(/\/start/, (msg, match) => {
   bot.sendMessage(msg.chat.id, 'Chal Bhaag Bosdike')
 });
 // Matches "/echo [whatever]"
-bot.onText(/\/sunny (.+)/, (msg, match) => {
+bot.onText(/\/sunnyy (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
   // 'match' is the result of executing the regexp above on the text content
   // of the message
