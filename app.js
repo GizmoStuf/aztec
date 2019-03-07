@@ -17,10 +17,6 @@ bot.onText(/\/sunny (.+)/, (msg, match) => {
 
   // send back the matched "whatever" to the chat
   bot.sendMessage(-1001481721169, resp);
-  bot.onText(/\/sunnyy (.+)/, (msg, match) => {
-  // 'msg' is the received Message from Telegram
-  // 'match' is the result of executing the regexp above on the text content
-  // of the message
 });
 bot.onText(/\/start/, (msg, match) => {
   bot.sendMessage(msg.chat.id, 'Chal Bhaag Bosdike')
