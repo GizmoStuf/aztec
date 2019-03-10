@@ -19,7 +19,7 @@ bot.onText(/\/diligent (.+)/, (msg, match) => {
   bot.sendMessage(-1001481721169, resp);
 });
 bot.onText(/\/start/, (msg, match) => {
-  bot.sendMessage(msg.chat.id, 'Chal Bhaag Bosdike')
+  bot.sendMessage(msg.chat.id, 'Hey, wassup sweetheart')
 });
 // Matches "/echo [whatever]"
 bot.onText(/\/diligentt (.+)/, (msg, match) => {
