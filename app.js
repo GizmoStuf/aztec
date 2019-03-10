@@ -7,7 +7,7 @@ const token = '780813584:AAEXt3qY5LLwY1zbmiuh_uhROkdsFVog9G8';
 const bot = new TelegramBot(token, {polling: true});
 
 // Matches "/echo [whatever]"
-bot.onText(/\/diligent (.+)/, (msg, match) => {
+bot.onText(/\/ss (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
   // 'match' is the result of executing the regexp above on the text content
   // of the message
@@ -22,7 +22,7 @@ bot.onText(/\/start/, (msg, match) => {
   bot.sendMessage(msg.chat.id, 'Hey, wassup sweetheart')
 });
 // Matches "/echo [whatever]"
-bot.onText(/\/diligentt (.+)/, (msg, match) => {
+bot.onText(/\/sgif (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
   // 'match' is the result of executing the regexp above on the text content
   // of the message
